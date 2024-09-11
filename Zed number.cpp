@@ -5,8 +5,9 @@ int main(){
     do {
         n++;
         z/=10;
+        std::cout<<z<<"\n";
     }
     while(2*z>z);
     std :: cout<<n<<"\n"<<z<<"\n";
-    std:: cout<< a*z;
+    std:: cout<< a*z<<"\n";
 }

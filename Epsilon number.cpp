@@ -3,9 +3,6 @@
 #include <iomanip>
 int main(){
     int n=0,a=4;
-    float pi = 22.0/7.0;
-    std:: cout<<std:: fixed<<std:: setprecision(std::
-                numeric_limits<double>::max_digits10) << pi<<"\n";
     double e=1;
     std:: cout<<"Size of float: "<<sizeof(float)<<"\n";
     bool check=false;
