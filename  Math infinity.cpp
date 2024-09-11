@@ -7,7 +7,7 @@ int main(){
         i*=10;
     }
     while(i*2!=i);
-    std :: cout<<n<<"\n"<<i<<"\n";
-    std:: cout<< a*i<<std:: endl;
-    std :: cout<< a+i;
+    std :: cout<<"Number of zeros:"<<n<<"\n"<<"Machine infinity: "<<i<<"\n";
+    std:: cout<<"Multiplying: "<< a*i<<std:: endl;
+    std :: cout<<"Adding: "<< a+i;
 }
