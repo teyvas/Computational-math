@@ -3,7 +3,6 @@ int main(){
     int n=0,a=4;
     double i=1;
     do {
-        if(i*2==i) break;
         n++;
         i*=10;
         std::cout<<i<<" "<<n<<"\n";
